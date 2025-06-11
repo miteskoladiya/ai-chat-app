@@ -4,6 +4,7 @@ export default {
   expo: {
     name: "ai-chat-app",
     slug: "ai-chat-app",
+    owner: "miteshkoladiya", 
     version: "1.0.0",
     orientation: "portrait",
     icon: "./assets/images/icon.png",
@@ -43,7 +44,7 @@ export default {
     extra: {
       baseUrl: process.env.BASE_URL,
       eas: {
-        projectId: "08ba1389-8961-4ff9-bb57-8c2c02af1312" 
+        projectId: "08ba1389-8961-4ff9-bb57-8c2c02af1312"
       }
     }
   }
